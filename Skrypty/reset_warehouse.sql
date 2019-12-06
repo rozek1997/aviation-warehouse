@@ -1,0 +1,5 @@
+create procedure reset_warehouse as
+begin
+exec clean_warehouse
+exec reset_flightIDSEQ
+end

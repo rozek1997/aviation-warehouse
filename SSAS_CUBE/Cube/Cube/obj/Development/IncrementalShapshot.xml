@@ -75,7 +75,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>aSIf9K3JS0M0BkHxNWMkU7tbQoU=04.12.2019 21:54:0804.12.2019 16:34:59Jdj2RKLTExRRoyKPwXqsS+OYEIQ=04.12.2019 16:34:5904.12.2019 16:34:59</TimeStamp>
+        <TimeStamp>HI0Yddf8Blf8KTj7jF+T0sG/aSw=06.12.2019 23:17:3104.12.2019 16:34:59Jdj2RKLTExRRoyKPwXqsS+OYEIQ=04.12.2019 16:34:5904.12.2019 16:34:59</TimeStamp>
         <ID>
           <String>Hd</String>
         </ID>
@@ -92,5 +92,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2019-12-04T20:54:10.743333Z</LastDeployed>
+  <LastDeployed>2019-12-06T22:17:32.186667Z</LastDeployed>
 </DeploymentSnapshot>

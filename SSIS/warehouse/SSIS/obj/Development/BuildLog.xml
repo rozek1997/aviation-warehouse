@@ -2,53 +2,18 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>SSIS</Name>
-    <LastWriteTime>2019-11-30T22:50:04.1338182Z</LastWriteTime>
+    <LastWriteTime>2019-12-06T17:34:43.8266783Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
-      <Name>load_data_dimdistance (1).dtsx</Name>
-      <LastWriteTime>2019-11-30T22:42:16.3191866Z</LastWriteTime>
+      <Name>load_allStage.dtsx</Name>
+      <LastWriteTime>2019-12-02T20:20:06.8205928Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
-      <Name>load_data_to_stage (1).dtsx</Name>
-      <LastWriteTime>2019-11-30T22:50:04.0504877Z</LastWriteTime>
-      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
-    </ProjectBuildItemInfo>
-    <ProjectBuildItemInfo>
-      <Name>load_date_toHD (1).dtsx</Name>
-      <LastWriteTime>2019-11-30T22:43:56.6249985Z</LastWriteTime>
-      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
-    </ProjectBuildItemInfo>
-    <ProjectBuildItemInfo>
-      <Name>load_dimairline (1).dtsx</Name>
-      <LastWriteTime>2019-11-30T22:44:10.0216241Z</LastWriteTime>
-      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
-    </ProjectBuildItemInfo>
-    <ProjectBuildItemInfo>
-      <Name>load_DimAirport (1).dtsx</Name>
-      <LastWriteTime>2019-11-30T22:44:27.8641028Z</LastWriteTime>
-      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
-    </ProjectBuildItemInfo>
-    <ProjectBuildItemInfo>
-      <Name>load_dimDelayGroup (1).dtsx</Name>
-      <LastWriteTime>2019-11-30T22:44:38.1328641Z</LastWriteTime>
-      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
-    </ProjectBuildItemInfo>
-    <ProjectBuildItemInfo>
-      <Name>load_dimdistance (1).dtsx</Name>
-      <LastWriteTime>2019-11-30T22:44:48.9610256Z</LastWriteTime>
-      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
-    </ProjectBuildItemInfo>
-    <ProjectBuildItemInfo>
-      <Name>load_factflight (1).dtsx</Name>
-      <LastWriteTime>2019-11-30T22:45:03.0851819Z</LastWriteTime>
-      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
-    </ProjectBuildItemInfo>
-    <ProjectBuildItemInfo>
-      <Name>load_time_toHD (1).dtsx</Name>
-      <LastWriteTime>2019-11-30T22:45:29.1988237Z</LastWriteTime>
+      <Name>load_HD.dtsx</Name>
+      <LastWriteTime>2019-12-06T17:34:40.547202Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
