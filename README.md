@@ -1,30 +1,30 @@
-<h1>Projekt uniwersytecki wykonany na przedmiot Hurtownie danych</h1>
-<h2>Użyte narzędzia</h2>
+<h1>Airport Data Warehouse project</h1>
+<h2>Tools used</h2>
   <ul>
-    <li>SAP Power Designer - w celu modelowania obszaru stage oraz obszaru repozytrium głównego</li>
+    <li>SAP Power Designer - to model the stage and main repository area</li>
     <li>MS SQL Server 2017</li>
-    <li>Visual Studio 2017 z dodatkiem SQL Server Integration Services (SSIS) - w celu adminstrowania procesem ETL oraz wykonywania               procedur składowych</li>
-    <li>Visual Studio 2017 z dodatkiem SQL Server Analysis Services (SSAS)</li>
-    <li>Miscrosoft Power BI - w celach analizy biznesowej</li>
+    <li>Visual Studio 2017 with the addition of SQL Server Integration Services (SSIS) - to administer the ETL process and perform component procedures</li>
+    <li>Visual Studio 2017 with SQL Server Analysis Services (SSAS)</li>
+    <li>Miscrosoft Power BI - for business analysis</li>
   </ul>
-<h2>Krótki opis</h2>
-  <p>Projekt polegał na zaprojektowaniu hurtownii danych dla lotów w USA w roku 2019.<br>Źródło danych faktów: 
+<h2>Brief description</h2>
+  <p> The project consisted in designing a data warehouse for flights in the USA in 2019.<br>The source of the facts: 
   <ul>
-    <li><a href="https://transtats.bts.gov/DL_SelectFields.asp?Table_ID=236">Źródło danych dla tabeli faktów(Fact Flight)</a></li>
-    <li><a href="https://openflights.org/data.html">Źródło danych dla tabel wymiarów</a></li>
+    <li><a href="https://transtats.bts.gov/DL_SelectFields.asp?Table_ID=236">Source of data for fact table(Fact Flight)</a></li>
+    <li><a href="https://openflights.org/data.html">Source for dimension tables</a></li>
   </ul>
-  Projekt składał się z kilku etapów. Poszczególne etapy polegały na:
+  The project consisted of several stages. The individual stages consisted of:
     <ol>
-      <li>Przeprowadzeniu procesu ładowania danych z plików .csv do obszaru stage</li>
-      <li>Przeprowadzeniu proces ETL. Proces ten został wykonany za pomocą procedur składowych, które czyściły, a następnie ładowały dane           do tabel wymiarów repozytrium głównego</li>
-      <li>Kolejnym krokiem było załadowanie danych do tabeli faktów, gdzie za fakt przyjęto pojedyńczy lot. W tabeli faktów dane dotyczące            wymiarów zastąpiono danymi z tabel lookup</li> 
-      <li>Dla obszaru repozytorium głównego należało utworzyć kostkę OLAP za pomocą narzędzia Visual Studio z dodatkiem SQL Server                    Analysis Services (SSAS)</li>
-      <li>Ostatnim krokiem było wykonanie raportów w narzędziu Microsoft Power BI z użyciem wykonanej kostki OLAP</li>
+      <li>Proceed with loading data from .csv files to the stage</li> area
+      <li>Please conduct the ETL process. This process was performed using component procedures that cleaned and then loaded data into the dimension tables of the main repository</li>
+      <li>The next step was to load the data into the facts table, where a single flight was taken as a fact. In the fact table, the dimensional data was replaced by the data from lookup</li> tables. 
+      <li> For the main repository area, you had to create an OLAP cube using the Visual Studio tool with SQL Server Analysis Services (SSAS)</li>.
+      <li>The last step was to execute reports in Microsoft Power BI using the executed OLAP</li> cube.
     </ol>
 
   </p>
 
-<h2>Modele obszaru stage oraz obszaru reporyzorium głównego</h2>
+<h2>Models of the stage area and the main reportment area</h2>
 <h3>Model stage</h3>
 
 ![Stage model](Screeny/model_STAGE.PNG)
@@ -33,7 +33,6 @@
 
 ![Stage model](Screeny/model_HD.PNG)
 
-
-<h2>Dodatkowe informacje</h2>
-  <p>W folderze Skrypty znajdują się skrypty zawierające procedury potrzebne do działania procesu ETL</p>
-  <p>W folderze Modele znajdują się Modele zamodelowane w Pwer Design-erze wraz z wygenerowanymi skryptami tworzącymi poszczegolne bazy     hurtowni danych</p>
+<h2>Additional information</h2>
+  <p>In the Scripts folder there are scripts containing procedures needed for the ETL process to work</p>
+  <p>In the Models folder you will find the Models modeled in Power Design-er together with the generated scripts that create specific databases of the data warehouse</p>.
